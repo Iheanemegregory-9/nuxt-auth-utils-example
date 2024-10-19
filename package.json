@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@prisma/nuxt": "^0.0.35",
+    "@types/bcrypt": "^5.0.2",
+    "bcrypt": "^5.1.1",
+    "nuxt": "^3.13.0",
+    "nuxt-auth-utils": "^0.4.4",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.21.1"
+  }
+}
